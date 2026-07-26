@@ -52,7 +52,7 @@ class CommandDispatched
                 'id' => $this->command->content->id,
                 'judul' => $this->command->content->judul,
                 'tipe' => $this->command->content->tipe,
-                'url' => $this->command->content->url,
+                'url' => $this->command->content->resolved_url,
             ] : null,
         ];
     }
