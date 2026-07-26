@@ -13,8 +13,8 @@
             sans: ['Inter', 'ui-sans-serif', 'system-ui'],
             mono: ['"JetBrains Mono"', 'ui-monospace'],
         }, colors: {
-            base: '#0B0E11', surface: '#12161C', edge: '#232A33',
-            ink: '#E8EDF2', muted: '#8592A0', signal: '#3DDC84', alert: '#E5484D', wire: '#4C8EFF',
+            base: '#0c4a6e', surface: '#0a3d5c', edge: '#155e83',
+            ink: '#E8EDF2', muted: '#9ec3db', signal: '#3DDC84', alert: '#E5484D', wire: '#14b8a6',
         } } } };
     </script>
 </head>
