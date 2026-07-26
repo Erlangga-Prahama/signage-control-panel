@@ -19,16 +19,16 @@
                         mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular'],
                     },
                     colors: {
-                        base: '#0B0E11',
-                        surface: '#12161C',
-                        surface2: '#171C24',
-                        edge: '#232A33',
+                        base: '#0c4a6e',
+                        surface: '#0a3d5c',
+                        surface2: '#0e4569',
+                        edge: '#155e83',
                         ink: '#E8EDF2',
-                        muted: '#8592A0',
+                        muted: '#9ec3db',
                         signal: '#3DDC84',
                         amber: '#F5A623',
                         alert: '#E5484D',
-                        wire: '#4C8EFF',
+                        wire: '#14b8a6',
                     },
                     boxShadow: {
                         glow: '0 0 0 1px rgba(61,220,132,0.25), 0 0 24px -6px rgba(61,220,132,0.45)',
@@ -43,8 +43,8 @@
     <style>
         [x-cloak] { display: none !important; }
         ::-webkit-scrollbar { width: 10px; height: 10px; }
-        ::-webkit-scrollbar-track { background: #0B0E11; }
-        ::-webkit-scrollbar-thumb { background: #232A33; border-radius: 8px; }
+        ::-webkit-scrollbar-track { background: #0c4a6e; }
+        ::-webkit-scrollbar-thumb { background: #155e83; border-radius: 8px; }
     </style>
 </head>
 <body class="h-full bg-base text-ink font-sans antialiased" x-data="signageApp()" x-init="init()">
