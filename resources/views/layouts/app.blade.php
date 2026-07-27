@@ -7,9 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/[email protected]/dist/cdn.min.js" defer></script>
+    <script src="https://unpkg.com/alpinejs/dist/cdn.min.js" defer></script>
     <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/echo.iife.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/laravel-echo/dist/echo.iife.js">
     <script>
         tailwind.config = {
             theme: {
