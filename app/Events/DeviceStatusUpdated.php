@@ -11,7 +11,7 @@ use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
 
-class DeviceStatusUpdated
+class DeviceStatusUpdated implements ShouldBroadcast
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
@@ -40,7 +40,7 @@ class DeviceStatusUpdated
         return 'device.status.updated';
     }
 
-    public function broadcastWtih(): array
+    public function broadcastWith(): array
     {
         return [
             'id' => $this->device->id,
