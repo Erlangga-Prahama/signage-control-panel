@@ -32,7 +32,7 @@ class SweepOfflineDevices extends Command
 
     protected function sweep(): void
     {
-        $threshold = (int) config('signage.offline_threshold', 20);
+        $threshold = (int) config('signage.offline_threshold', 15);
 
         $stale = Device::where('status', 'online')
             ->where(function ($q) use ($threshold) {
